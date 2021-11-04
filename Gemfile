@@ -7,6 +7,8 @@ ruby '3.0.2'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'react-rails'
 gem 'mini_racer'
+gem 'therubyracer'
+gem "libv8", '~> 3.16.14.15'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.5'
 # Use Puma as the app server
